@@ -1,0 +1,74 @@
+.head-color{
+    width: 100%;
+}
+.title-color{
+    background-color: rgba(41, 41, 138, 0.774);
+}
+.title-color h3{
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    font-weight: 500;
+    margin: 0;
+}
+.color{
+    border: 1px solid rgba(41, 41, 138, 0.774);
+    display: flex;
+    padding: 20px 20px 50px 20px;
+}
+.box-color{
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.txt-content{
+    padding: 20px;
+}
+.content{
+    border: 1px  solid red;
+    padding: 10px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 30px;
+    padding: 20px;
+}
+.btna{
+    width: 100%;
+    max-width: 1000px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+button{
+    padding: 10px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.size{
+    background-color: wheat;
+    padding: 15px;
+}
+.size p{
+    color: sienna;
+    margin: 0;
+}
+.btn-size{
+    border: 1px solid wheat;
+    padding: 20px 20px 50px 20px;
+}
+.btn-size button{
+    padding: 12px 15px;
+    margin: 0 8px;
+    background-color: rgb(35, 134, 57);
+    color: white;
+    border: none;
+}
+.active{
+    border: 3px solid black;
+}
